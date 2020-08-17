@@ -1,0 +1,776 @@
+/**
+* Template Name: Minimal
+* Template URL: https://templatemag.com/minimal-bootstrap-template/
+* Author: TemplateMag.com
+* License: https://templatemag.com/license/
+*/
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+
+a {
+  color: #ff3985;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #630000;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+  background: url(../img/newyork.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  margin-top: 150px;
+  color: white;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#headerwrap h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: 'EB Garamond', serif;
+  font-style: oblique;
+}
+
+#headerwrap .logo {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* Footer Wrap */
+.about{
+  background-color: rgb(253, 253, 175);
+}
+#f {
+ 
+  padding-top: 60px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+#f h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#f i {
+  font-size: 8px;
+  color: #fff;
+  padding: 3px;
+}
+
+#f p {
+  font-size: 14px;
+  color: rgb(73, 73, 73);
+  font-family: "sans-serif";
+}
+
+#f img {
+  text-align: center;
+}
+
+/* MENU CONF*/
+
+.menu {
+  position: fixed;
+  right: -200px;
+  width: 260px;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+  text-align: left;
+}
+
+.menu.menu-open {
+  right: 0px;
+}
+/* MENUバー*/
+.menu-wrap {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  background:rgba(255, 254, 254, 0.77);
+  width: 200px;
+  height: 100%;
+}
+/* MENUバー上のlogo*/
+.menu h1.logo a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  line-height: 105px;
+  text-transform: uppercase;
+  color:rgb(102, 92, 92);
+  margin-top: 20px;
+}
+
+.menu h1.logo a:hover {
+  color:rgb(250, 134, 134);
+  
+}
+
+.menu img.logo {
+  margin: 10px 0;
+  max-width: 160px;
+}
+
+.menu a {
+  font-family:"Comic Sans MS";/* MENUバーのfont-family*/
+  margin-left: 20px;
+  color: rgb(250, 134, 134);
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+}
+
+.menu a:hover {
+  color: rgb(82, 81, 81);
+}
+
+.menu a:active {
+  color: #ffffff;
+}
+
+.menu a>i {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 25px;
+  font-size: 14px;
+  line-height: 40px;
+  margin: 25px 2px;
+}
+
+.menu-close {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  columns: #888888;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 20px;
+  right: 5px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.menu-close:hover {
+  color: #fc9191;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+/* Push the body after clicking the menu button */
+
+.body-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.body-push-toright {
+  left: 200px;
+}
+
+.body-push-toleft {
+  left: -200px;
+}
+
+.menu, .body-push {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+/* メニューボタンそのまま*/
+#menuToggle {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 11;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #fab5b5;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  background:rgba(255, 254, 254, 0.6);
+  
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+/* メニューボタンhoverしたとき */
+#menuToggle:hover {
+  color: #fff;
+  background:rgba(250, 158, 158, 0.7);
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+/* menu通常時はホバー時の日本語文字を非表示にする */
+a .hover{
+  display: none;
+  }
+  
+  /* menuホバー時は通常時の文字を非表示にする */
+  a:hover .smoothscroll{
+  display: none;
+  }
+  
+  /* menuホバー時に、ホバー時の文字を表示する */
+  a:hover .hover{
+  display: inline;
+  }
+
+/* Contact Form */
+
+.contact-form {
+  text-align: left;
+}
+
+.contact-form label {
+   color: rgb(116, 114, 114);
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+}
+
+.contact-form .form-send {
+  text-align: center;
+}
+
+.contact-form .form-send button  {
+  background: #f5eed6;
+  border: 0;
+  padding: 10px 30px;
+  color: rgb(61, 61, 61);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact-form .form-send button:hover {
+  background: #f0ee71;
+}
+
+.contact-form .validate {
+  display: none;
+  color: rgb(248, 15, 15);
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact-form .loading {
+  display: none;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.contact-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+
+/* Copyrights */
+
+#copyrights {
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+  color: rgb(88, 86, 86);
+}
+
+#copyrights a {
+  color: #f7a430;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+}
+
+.credits {
+  color: rgb(121, 106, 106);
+}
+
+
+   /* flexBOXのコンテナ指定 */
+  .f-container{
+    display:flex;	
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: rgb(250, 199, 199,0.8);
+    padding-top: 50px;
+    padding-bottom:80px;
+  }
+ 
+ /* flexBOXのサブタイトル*/
+  .trip{
+  background-color:rgb(250, 199, 199,0.8);
+  padding-top:60px;
+  padding-bottom:40px;
+}
+.trip h3{
+  text-align:center;
+  color:#fff;
+  font-size:28px;
+  font-weight:700;
+  letter-spacing:1px;
+
+}
+
+.img{
+  margin-bottom:40px;
+  margin-left:20px;
+  margin-right:20px;
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  200px;       /* ※縦横を同値に */
+    height: 200px;       /* ※縦横を同値に */
+
+}
+ /* 〇画像上の国caption*/
+.caption{
+  color:#fff;
+ /* background-color:rgb(156, 154, 154,0.7);*/
+  font-size:27px;
+  font-family:"EB Garam";
+  letter-spacing:0.5px;
+}
+:hover.caption{
+  color:rgb(252, 255, 49);
+}
+
+
+ /* 〇画像1のcaptionの位置設定 */
+.f-item1{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item1 img {
+  display: block;
+  transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item1 img:hover {
+  transform: scale(1.2);	/*画像の拡大率*/
+  transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+.f-item1 a{
+  position: absolute;
+  top:90px;
+  left:80px;
+}
+
+
+/* 〇画像2のcaptionの位置設定 */
+.f-item2{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item2 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item2 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+.f-item2 a{
+  position: absolute;
+  top:90px;
+  left:43px;
+}
+
+
+ /* 〇画像3のcaptionの位置設定 */
+.f-item3{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item3 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item3 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+    
+.f-item3 a{
+  position: absolute;
+  top:90px;
+  left:45px;
+}
+
+
+ /* 〇画像4のcaptionの位置設定 */
+.f-item4{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item4 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item4 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+.f-item4 a{
+  position: absolute;
+  top:90px;
+  left:80px;
+}
+
+
+ /* 〇画像5のcaptionの位置設定 */
+ .f-item5{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item5 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item5 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+.f-item5 a{
+  position: absolute;
+  top:90px;
+  left:40px;
+}
+
+ /* 〇画像6のcaptionの位置設定 */
+ .f-item6{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item6 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item6 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+
+.f-item6 a{
+  position: absolute;
+  top:90px;
+  left:52px;
+}
+
+
+ /* 〇画像7のcaptionの位置設定 */
+ .f-item7{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item7 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item7 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+.f-item7 a{
+  position: absolute;
+  top:90px;
+  left:65px;
+}
+
+
+ /* 〇画像8のcaptionの位置設定 */
+ .f-item8{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item8 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item8 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+.f-item8 a{
+  position: absolute;
+  top:90px;
+  left:80px;
+}
+
+ /* 〇画像9のcaptionの位置設定 */
+ .f-item9{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item9 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item9 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+.f-item9 a{
+  position: absolute;
+  top:90px;
+  left:65px;
+}
+ /* 〇画像10のcaptionの位置設定 */
+ .f-item10{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item10 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item10 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+.f-item10 a{
+  position: absolute;
+  top:90px;
+  left:82px;
+}
+
+ /* 〇画像11のcaptionの位置設定 */
+ .f-item11{
+  position: relative;
+  width: 220px;	/*画像の幅*/
+  height: 220px;	/*画像の高さ*/
+  }
+  .f-item11 img {
+    display: block;
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+  .f-item11 img:hover {
+    transform: scale(1.2);	/*画像の拡大率*/
+    transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+.f-item11 a{
+  position: absolute;
+  top:90px;
+  left:60px;
+}
+
+.recommend{
+  background-color: lightblue;
+  
+}
+
+.contact{
+  background-color:rgb(181, 252, 181);
+}
+/* CSSアニメーションの指定 */
+.Headline{
+  animation-name:Slidin;
+  animation-duration:3s;
+  animation-timing-function: ease-out;
+
+}
+
+/* TOP　h1のアニメーションの設定 */
+@keyframes Slidin {
+  0% {
+    transform: translateY(450px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* RECOMMEND画像イメージの設定 */
+.carousel-inner{
+  text-align:center;
+  margin:0 auto;
+  max-width: 800px;
+  max-height:300px;
+ 
+} 
