@@ -6,7 +6,22 @@
 */
 
 body {
-  background-color: #f2f2f2;
+  background: url(../img/top-boston.jpg) no-repeat center top;
+  background-attachment: fixed;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'EB Garamond', serif;
   font-weight: 300;
   font-size: 16px;
@@ -18,7 +33,7 @@ body {
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald',sans-serif;
   font-weight: 300;
   color: #333;
 }
@@ -74,22 +89,28 @@ hr {
    ========================================================================== */
 
 #headerwrap {
-  background: url(../img/top-boston.jpg) no-repeat center top;
-  margin-top: -10px;
-  padding-top: 20px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 700px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ /* background: url(../img/top-boston.jpg) no-repeat center top;*/
+ margin-top: -10px;
+ padding-top: 20px;
+ text-align: center;
+ background-position: center center;
+ min-height: 700px;
+ width: 100%;
+ -webkit-background-size: 100%;
+ -moz-background-size: 100%;
+ -o-background-size: 100%;
+ background-size: 100%;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ font-family: 'EB Garamond', serif;
+ font-weight: 300;
+ font-size: 16px;
+ color: #555;
+ -webkit-font-smoothing: antialiased;
+ -webkit-overflow-scrolling: touch;
+
 }
 
 #headerwrap h1 {
@@ -97,13 +118,16 @@ hr {
   color: white;
   font-size: 90px;
   font-weight: 700;
+  
 }
+
+
 
 #headerwrap h3 {
   color: white;
   font-size: 25px;
   font-weight: 100;
-  font-family: 'EB Garamond', serif;
+  font-family:'Ink Free', serif;
   font-style: oblique;
 }
 
@@ -115,7 +139,7 @@ hr {
 
 /* Footer Wrap */
 .about{
-  background-color: rgb(253, 253, 175);
+  background-color: rgb(253, 253, 175,0.7);
 }
 #f {
  
@@ -194,7 +218,7 @@ hr {
 }
 
 .menu a {
-  font-family:"Comic Sans MS";/* MENUバーのfont-family*/
+  font-family:'comic MS';/* MENUバーのfont-family*/
   margin-left: 20px;
   color: rgb(250, 134, 134);
   display: block;
@@ -438,7 +462,7 @@ a .hover{
 /* Copyrights */
 
 #copyrights {
-  background: #fff;
+  background: rgb(255, 253, 253,0.7);
   padding: 20px 0;
   text-align: center;
   color: rgb(88, 86, 86);
@@ -467,14 +491,14 @@ a .hover{
     justify-content:space-around;
     align-items: stretch;
     align-content: stretch;
-    background-color: rgb(250, 199, 199,0.8);
+    background-color: rgb(250, 199, 199,0.7);
     padding-top: 50px;
     padding-bottom:80px;
   }
  
  /* flexBOXのサブタイトル*/
   .trip{
-  background-color:rgb(250, 199, 199,0.8);
+  background-color:rgb(250, 199, 199,0.7);
   padding-top:60px;
   padding-bottom:40px;
 }
@@ -744,12 +768,12 @@ a .hover{
 }
 
 .recommend{
-  background-color: lightblue;
+  background-color: rgb(173, 216, 230,0.7);
   
 }
 
 .contact{
-  background-color:rgb(181, 252, 181);
+  background-color:rgb(181, 252, 181,0.7);
 }
 /* CSSアニメーションの指定 */
 .Headline{
